@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+
+}
+
+#header {
+  height: 70px;
+  background-color: #000;
+
+}
+
+#nav {
+
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav  .subnav {
+    position: absolute;
+    color: #000;
+    list-style-type: none;
+    min-width: 180px;
+    display: none;
+}
+#nav > li {
+    display: inline-block;
+}
+
+
+#nav li a {
+    line-height: 70px;
+    display: block;
+    text-decoration: none;
+    padding: 0 8px;
+    color: #fff;
+    font-size: 18px;
+}
+#nav li:hover .subnav {
+    display: list-item;
+}
+
+
+
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: black;
+    background-color:#fff;
+}
+
+#nav li:hover a {
+   color: #000;
+   background-color: darkgrey;
+}
+
+
+#slider {
+
+background-color: violet;
+height: 500px;
+}
+
+#Content {
+
+}
+
+#Footer {
+
+}
